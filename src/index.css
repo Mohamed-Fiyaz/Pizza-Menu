@@ -168,3 +168,58 @@ body {
 .btn:hover {
   background-color: #e9bb24;
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+
+  .header h1 {
+    font-size: 4rem;
+  }
+
+  .menu h2 {
+    font-size: 2rem;
+  }
+
+  .menu > p {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+
+  .pizzas {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .pizza img {
+    width: 100%;
+  }
+
+  .pizza h3 {
+    font-size: 2rem;
+  }
+
+  .pizza p {
+    font-size: 1.4rem;
+  }
+
+  .pizza span {
+    font-size: 1.6rem;
+  }
+
+  .footer {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 1.2rem 2.8rem;
+  }
+}
